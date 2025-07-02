@@ -1,7 +1,7 @@
 import * as maplibregl from "https://esm.sh/maplibre-gl";
 
 const map = new maplibregl.Map({
-    container: 'mijnkaart', // container id
+    container: 'map', // container id
     style: 'https://demotiles.maplibre.org/style.json', // style URL
     center: [0, 0], // starting position [lng, lat]
     zoom: 1 // starting zoom
